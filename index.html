@@ -2,28 +2,154 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Sandra Data Portfolio</title>
-</head>
-<body>
-    <h1>Sandra Barry-Nwaeze</h1>
-    <p>MSc Data Science Student | Python | SQL | PySpark | NLP</p>
+<title>Sandra Data Portfolio</title>
 
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0b1220;
+    color: white;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111a2e;
+    padding: 15px 25px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+/* SECTIONS */
+section {
+    padding: 30px;
+}
+
+.card {
+    background-color: #111a2e;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+/* BUTTONS */
+button {
+    padding: 12px 18px;
+    border-radius: 8px;
+    margin-right: 10px;
+    border: none;
+    background: linear-gradient(135deg, #6ee7ff, #a78bfa);
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* TEXT */
+h1 {
+    font-size: 38px;
+    line-height: 1.2;
+}
+
+p {
+    line-height: 1.6;
+    color: #cbd5e1;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    <div class="profile">
+        <img src="profile.jpg">
+        <div>
+            <h3>Sandra Nkechi Barry-Nwaeze</h3>
+            <p>MSc Data Science (Coventry University) • Seeking Data Science Internship</p>
+        </div>
+    </div>
+
+    <nav>
+        <a href="#">Projects</a>
+        <a href="#">Skills</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<!-- MAIN SECTION -->
+<section>
+
+<div class="card">
+    <h1>Building practical, beginner-friendly data solutions with real coursework projects</h1>
+
+    <p>
+    I’m an MSc Data Science student at Coventry University. I have hands-on experience 
+    in PySpark, machine learning, SQL/database design and NLP. I enjoy turning data into 
+    clear insights and solving real-world problems.
+    </p>
+
+    <button>View Projects</button>
+    <button>Download CV</button>
+</div>
+
+<div class="card">
+    <h2>Quick Highlights</h2>
+    <ul>
+        <li><b>Big Data:</b> Built distributed ML pipeline using PySpark.</li>
+        <li><b>NLP:</b> Developed lecture note generator concept.</li>
+        <li><b>SQL:</b> Designed relational database and queries.</li>
+        <li><b>Professionalism:</b> Strong analytical and communication skills.</li>
+    </ul>
+</div>
+
+<div class="card">
     <h2>Projects</h2>
 
     <h3>PySpark Machine Learning Project</h3>
-    <p>Built a distributed machine learning pipeline using PySpark to classify large-scale geological data.</p>
+    <p>Built a distributed machine learning pipeline to classify large-scale geological data.</p>
 
-<h3>NLP Lecture Notes Project</h3>
-    <p>Developed a system to convert lecture audio into structured notes using NLP.</p>
+    <h3>NLP Lecture Notes Project</h3>
+    <p>Developed a system to convert lecture audio into structured notes.</p>
 
     <h3>SQL Database Project</h3>
-    <p>Designed relational database and performed SQL analysis.</p>
+    <p>Designed database schema and performed SQL analysis.</p>
 
     <h3>Python Simulation Project</h3>
-    <p>Developed a soccer dice simulation to analyze performance.</p>
+    <p>Created a simulation model to analyse performance outcomes.</p>
+</div>
 
+<div class="card">
     <h2>Contact</h2>
     <p>Email: sandrankechi46@gmail.com</p>
-    <p><a href="https://www.linkedin.com/in/sandra-barry-nwaeze-ab23bb11b/">LinkedIn Profile</a></p>
+    <p>
+        LinkedIn: 
+        <a href="https://www.linkedin.com/in/sandra-barry-nwaeze-ab23bb11b/" style="color:#6ee7ff;">
+            Click here
+        </a>
+    </p>
+</div>
+
+</section>
+
 </body>
 </html>
